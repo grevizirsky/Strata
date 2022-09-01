@@ -60,6 +60,48 @@ h4{
     font-size: 22px;
 }
 
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    padding: .75em 2em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    transition: background-color .3s linear;
+}
+.button-default:hover{
+    background-color: #42ac8e;
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.button-default-small{
+    font-size: .7em;
+}
+
+.button-default-full{
+    display: block;
+    text-align: center;
+}
+
+.ul-icons li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 2em;
+    color: #49bf9d;
+    margin-bottom: 26px;
+}
+
 .main-header{
     position: fixed;
     top: 0;
@@ -98,4 +140,13 @@ h4{
     margin-left: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
+}
+
+.row{
+    overflow: auto;
+}
+
+.col-2{
+    width: 50%;
+    float: left;
 }
