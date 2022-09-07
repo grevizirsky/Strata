@@ -65,12 +65,12 @@ ul, ol{
     padding: 0;
 }
 
-input, label, textarea{
+input, label, textarea, select{
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
 }
-input, textarea{
+input, textarea, select{
     background: #e2e2e2;
     padding: 10px;
     border-radius: 5px;
@@ -83,6 +83,10 @@ textarea{
 input:focus, textarea:focus{
     border: 2px solid #42ac8e;
     outline: none;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
 }
 
 .button-default{
