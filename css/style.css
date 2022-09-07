@@ -19,6 +19,10 @@ p{
     margin: 0 0 2em;
 }
 
+img{
+    max-width: 100%;
+}
+
 sub, sup{
     font-size: 12px;
 }
@@ -125,6 +129,10 @@ input[type="radio"], input[type="checkbox"]{
     font-size: 1em;
 }
 
+.imagem-link{
+    border: 0;
+}
+
 .table{
     width: 100%;
     margin: 0 0 2em 0;
@@ -201,6 +209,19 @@ input[type="radio"], input[type="checkbox"]{
     margin-left: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
+}
+
+.main-header-link img{
+    border-radius:  50%;
+    overflow: hidden;
+}
+
+.img-left, .img-right{
+    border-radius: 10px;
+}
+
+.recent-work-card img{
+    border-radius: 10px;
 }
 
 /* ROW */
