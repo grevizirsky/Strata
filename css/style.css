@@ -106,7 +106,7 @@ input[type="radio"], input[type="checkbox"]{
     cursor: pointer;
 }
 .button-default:hover{
-    background-color: #42ac8e;
+    background-color: #49bf9d;
 }
 
 .button-default-stroke{
@@ -176,9 +176,14 @@ input[type="radio"], input[type="checkbox"]{
     font-size: 2em;
     color: #49bf9d;
     margin-bottom: 26px;
+    transition: color .2s linear;
 }
 .ul-icons a{
     border-bottom: none;
+}
+
+.ul-icons li a:hover{
+    color: #3c9b80;
 }
 
 .main-header{
@@ -203,6 +208,13 @@ input[type="radio"], input[type="checkbox"]{
 }
 .main-header-title strong{
     color: white;
+    font-weight: normal;
+}
+
+.paragraph{
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.178);
     font-weight: normal;
 }
 
@@ -252,6 +264,24 @@ input[type="radio"], input[type="checkbox"]{
     box-sizing: border-box;
     text-align: right;
 }
+
+.img-left{
+    float: left;
+    margin-right: 2%;
+}
+
+.img-right{
+    float: right;
+    margin-left: 2%;
+}
+
+.hidden{
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 
 /* ROW */
 .row{
